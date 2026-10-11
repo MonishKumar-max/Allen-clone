@@ -1,5 +1,5 @@
 import logo from "../assets/logo.svg";
-function NavBar() {
+export default function NavBar() {
   return (
     <>
       <div
@@ -20,7 +20,7 @@ function NavBar() {
         >
           <img
             src={logo}
-            style={{ width: "100px", height: "55px", paddingTop: "17px" }}
+            style={{ width: "100px", height: "55px", paddingTop: "17px" ,cursor:'pointer'}}
           ></img>
           <div style={{ paddingTop: "17px", marginLeft: "auto" }}>
             <button
@@ -85,4 +85,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+

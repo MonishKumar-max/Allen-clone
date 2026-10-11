@@ -91,3 +91,37 @@ body,
 .buttonlogin:hover{
   background-color: #CFCFCF;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+  padding: 30px 10%;
+  background-color: #edf2fa;
+}
+
+.footer-section{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer-item{
+  font-size: 14px;
+  padding: auto;
+}
+
+.footer-1{
+  display: flex;
+  justify-content:flex-start;
+  gap: 175px;
+  padding: 30px 10%;
+  background-color: #edf2fa;
+}
+
+.footer-line{
+  border: none;
+  border-top: 1px solid #d9d9d9;
+  margin: 20px auto;
+  padding:auto;
+  width: 83%;
+}
