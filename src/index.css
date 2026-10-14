@@ -125,3 +125,98 @@ body,
   padding:auto;
   width: 83%;
 }
+
+.nav-link-0::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:65px;
+  padding-left: 60px;
+  margin-left: 65px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-0:hover::after,
+.nav-link-0.active::after {
+  transform: scaleX(1);
+}
+
+
+.nav-link-1::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:43px;
+  padding-left: 60px;
+  margin-left: 258px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-1:hover::after,
+.nav-link-1.active::after {
+  transform: scaleX(1);
+}
+
+.nav-link-2::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:43px;
+  padding-left: 60px;
+  margin-left: 422px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-2:hover::after,
+.nav-link-2.active::after {
+  transform: scaleX(1);
+}
+
+.nav-link-3::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:50px;
+  margin-left: 584px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-3:hover::after,
+.nav-link-3.active::after {
+  transform: scaleX(1);
+}
+
+
+.nav-link-4::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:103px;
+  margin-left: 695px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-4:hover::after,
+.nav-link-4.active::after {
+  transform: scaleX(1);
+}

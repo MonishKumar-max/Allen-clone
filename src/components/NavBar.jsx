@@ -59,26 +59,26 @@ export default function NavBar() {
             paddingTop: "32px",
           }}
         >
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link-0">
             Classroom Courses
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link-1">
             Online Courses
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link-2">
             CBT Test Series
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>Result</div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>
+          <div style={{ fontSize: "14px", cursor: "pointer" }}className="nav-link-3">Results</div>
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link-4">
             Study Materials
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>
+          <div style={{ fontSize: "14px", cursor: "pointer" }}className="nav-link">
             Scholarships
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link">
             Allen E-Store
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}>More</div>
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link">More</div>
         </div>
       </div>
     </>
