@@ -4,7 +4,7 @@ import two from "../assets/Classroom.webp";
 import three from "../assets/3rd.png";
 import four from "../assets/4th.png";
 import Trending from "../assets/Trending1.png";
-import staricon from "../assets/staricon.png"
+import staricon from "../assets/staricon.png";
 import { CourseCard } from "./Coursecard";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
           style={{
             paddingTop: "80px",
             height: "1000px",
-            width:'100%',
+            width: "100%",
             backgroundColor: "#EDF2FA",
           }}
         >
@@ -82,13 +82,34 @@ export default function Home() {
               }}
             />
           </div>
-          <div style={{display:'flex'}}>
-          <div style={{fontWeight:'bold',paddingLeft:'230px',paddingTop:'100px',fontSize:'26px'}}>
-            Meet our Stars
+          <div style={{ display: "flex" }}>
+            <div
+              style={{
+                fontWeight: "bold",
+                paddingLeft: "230px",
+                paddingTop: "100px",
+                fontSize: "26px",
+              }}
+            >
+              Meet our Stars
+            </div>
+            <div style={{ paddingTop: "90px", marginLeft: "-4px" }}>
+              <img src={staricon} style={{ height: "30px" }}></img>
+            </div>
           </div>
-          <div style={{paddingTop:'90px',marginLeft:'-4px'}}>
-          <img src={staricon} style={{height:'30px'}}></img>
-          </div>
+          <div style={{ display: "flex" }}>
+            <div style={{ paddingLeft: "230px", paddingTop: "8px", }}>
+              <button className="phoneButton" style={{height:'36px',width:'52px'}}> ALL</button>
+            </div>
+            <div style={{ paddingLeft: "8px", paddingTop: "8px"}}>
+              <button className="phoneButton"  style={{height:'36px',width:'55px'}}> NEET</button>
+            </div>
+            <div style={{ paddingLeft: "8px", paddingTop: "8px"}}>
+              <button className="phoneButton"  style={{height:'36px',width:'45px'}}> JEE</button>
+            </div>
+            <div style={{ paddingLeft: "8px", paddingTop: "8px"}}>
+              <button className="phoneButton"  style={{height:'36px',width:'110px'}}>CLASSES 6-10</button>
+            </div>
           </div>
         </div>
       </div>

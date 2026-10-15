@@ -220,3 +220,94 @@ body,
 .nav-link-4.active::after {
   transform: scaleX(1);
 }
+
+.nav-link-5::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:85px;
+  margin-left: 860px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-5:hover::after,
+.nav-link-5.active::after {
+  transform: scaleX(1);
+}
+
+.nav-link-6::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:86px;
+  margin-left: 1008px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-6:hover::after,
+.nav-link-6.active::after {
+  transform: scaleX(1);
+}
+
+.nav-link-7::after {
+  content: "";
+ position: absolute;
+  left: 0;
+  bottom: 13px;
+  width:40px;
+  margin-left: 1157px;
+  height: 4px;
+  background-color: #0866e9;
+  border-radius: 10px;
+  transform: scaleX(0);
+}
+
+.nav-link-7:hover::after,
+.nav-link-7.active::after {
+  transform: scaleX(1);
+}
+
+
+.phoneButton {
+  appearance: none;
+  -webkit-appearance: none;
+
+  
+  background: transparent;
+  border:1px solid #0266DA;
+  border-radius: 8px;
+
+  background-color:#D5E8FF;
+
+  padding: 0;
+  margin: 0;
+
+ 
+
+  box-shadow: none;
+  outline: none;
+
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneButton:hover,
+.phoneButton:focus,
+.phoneButton:active {
+  background: transparent;
+  border:1px solid #0266DA;
+  background-color: #D5E8FF;
+  box-shadow: none;
+  outline: none;
+}

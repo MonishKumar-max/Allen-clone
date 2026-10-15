@@ -86,6 +86,7 @@ export function Footer() {
                 width="15px"
                 height="15px"
                 viewBox="0 0 48 48"
+                style={{cursor:'pointer'}}
               >
                 <path
                   fill="black"
@@ -100,6 +101,7 @@ export function Footer() {
                 width="15px"
                 height="15px"
                 viewBox="0 0 24 24"
+                style={{cursor:'pointer'}}
               >
                 <path
                   fill="currentColor"
@@ -114,6 +116,7 @@ export function Footer() {
                 height="15px"
                 viewBox="0 0 24 24"
                 fill="none"
+                style={{cursor:'pointer'}}
               >
                 <rect width="24" height="24" rx="5" fill="#25252D" />
 
@@ -130,6 +133,7 @@ export function Footer() {
                 height="15px"
                 viewBox="0 0 24 24"
                 fill="none"
+                style={{cursor:'pointer'}}
               >
                 <rect width="24" height="24" rx="5" fill="#25252D" />
 
@@ -146,6 +150,7 @@ export function Footer() {
                 height="15px"
                 viewBox="0 0 24 24"
                 fill="none"
+                style={{cursor:'pointer'}}
               >
                 <rect width="24" height="24" rx="5" fill="#25252D" />
 

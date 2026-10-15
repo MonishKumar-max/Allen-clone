@@ -72,13 +72,13 @@ export default function NavBar() {
           <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link-4">
             Study Materials
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }}className="nav-link">
+          <div style={{ fontSize: "14px", cursor: "pointer" }}className="nav-link-5">
             Scholarships
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link">
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link-6">
             Allen E-Store
           </div>
-          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link">More</div>
+          <div style={{ fontSize: "14px", cursor: "pointer" }} className="nav-link-7">More</div>
         </div>
       </div>
     </>
