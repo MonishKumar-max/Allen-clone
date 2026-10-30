@@ -311,3 +311,29 @@ body,
   box-shadow: none;
   outline: none;
 }
+
+.white{
+    appearance: none;
+  -webkit-appearance: none;
+
+  
+  background: transparent;
+  border:1px solid #C7C9CD;
+  border-radius: 8px;
+
+  background-color:white;
+
+  padding: 0;
+  margin: 0;
+
+ 
+
+  box-shadow: none;
+  outline: none;
+
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
